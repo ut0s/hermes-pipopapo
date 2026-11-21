@@ -1,0 +1,7 @@
+name: pipopapo
+version: "0.1.0"
+description: Local PipoPapo audio cues for finished turns and requests for human input.
+requires_hermes: ">=0.23.3"
+provides_hooks:
+  - post_llm_call
+  - on_human_input_request
